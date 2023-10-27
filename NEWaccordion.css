@@ -1,0 +1,13 @@
+.accordion-header {
+  cursor: pointer;
+  background-color: #b9d7f0;
+  padding: 1rem;
+}
+  
+.accordion-card > .panel {
+  display: none;
+}
+  
+.accordion-card.active > .panel {
+  display: block;
+}
